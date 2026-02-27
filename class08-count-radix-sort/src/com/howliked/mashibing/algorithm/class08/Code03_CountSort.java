@@ -2,6 +2,10 @@ package com.howliked.mashibing.algorithm.class08;
 
 import java.util.Random;
 
+/**
+ * 计数排序【非基于比较的排序】
+ * 一般来说，计数排序要求样本是整数，且范转比较较窄（因为涉及到桶的数量）
+ */
 public class Code03_CountSort {
     public static void main(String[] args) {
         int[] array = new int[]{23, 23, 24, 20, 25, 18, 46, 36, 34, 35};
