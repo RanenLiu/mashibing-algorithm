@@ -24,6 +24,7 @@ public class Code02_PartitionAndQuickSort {
         process1(array, M + 1, R);
     }
 
+    // 先比再交右扩跳
     private static int partition(int[] array, int L, int R) {
         int lessEqual = L - 1;
         int index = L;
@@ -45,8 +46,8 @@ public class Code02_PartitionAndQuickSort {
     }
 
     private static void printArray(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + "\t");
+        for (int j : array) {
+            System.out.print(j + "\t");
         }
         System.out.println();
     }
